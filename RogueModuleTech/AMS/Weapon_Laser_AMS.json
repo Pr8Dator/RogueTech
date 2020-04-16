@@ -1,54 +1,59 @@
 {
     "Custom": {
-		"Category": [
-            { "CategoryID": "AMS" },
-			{ "CategoryID": "w/s/a/lams" }
+        "Category": [
+            {
+                "CategoryID": "AMS"
+            },
+            {
+                "CategoryID": "w/s/a/lams"
+            }
         ],
         "BonusDescriptions": {
             "Bonuses": [
                 "LAMS",
-                "AMSAcc: 30%",
-                "AMSShots: 10",
-                "AMSHeat: 6",
-                "OLAMSShots: 15",
-                "OLAMSHeat: 18",
-                "OLAMSJam: 40%",
-                "OLAMSRange: 90",
-                "AMSDirectSLAS"
+                "AMSSINGLE",
+                "AMSAcc: 35%",
+                "AMSShots: 15",
+                "AMSJam: 0%",
+                "OLAMSMULTI",
+                "OLAMSShots: 30",
+                "OLAMSHeat: +10",
+                "OLAMSJam: 35%",
+                "AMSDirectMG: 20"
             ]
         },
         "InventorySorter": {
             "SortKey": "00025"
         }
     },
-	"Auras": [
-    {
-      "Id": "AMS",
-      "Name": "AMS",
-      "ReticleColor": "#cc9900",
-      "Range": 10,
-      "RemoveOnSensorLock": false,
-      "State": "Persistent",
-      "ApplySelf": false,
-      "HideOnNotSelected": true,
-      "AllyStealthAffection": "None",
-      "EnemyStealthAffection": "None",
-      "IsPositiveToAlly": false
-    }
-  ],
+    "Auras": [
+        {
+            "Id": "AMS",
+            "Name": "AMS",
+            "ReticleColor": "#cc9900",
+            "Range": 10,
+            "RemoveOnSensorLock": false,
+            "State": "Persistent",
+            "ApplySelf": false,
+            "HideOnNotSelected": true,
+            "AllyStealthAffection": "None",
+            "EnemyStealthAffection": "None",
+            "IsPositiveToAlly": false
+        }
+    ],
     "Category": "AntiPersonnel",
     "Type": "Laser",
     "WeaponSubType": "SmallLaser",
     "MinRange": 0,
-    "MaxRange": 120,
+    "MaxRange": 180,
     "RangeSplit": [
+        60,
         90,
-        90,
-        90
+        120
     ],
     "AmmoCategory": "NotSet",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 6,
+    "HeatGenerated": 10,
     "Damage": 0,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
@@ -57,9 +62,9 @@
     "HeatDamage": 0,
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
-	"APArmorShardsMod": 0,
-	"APMaxArmorThickness": 1,
-	"APCriticalChanceMultiplier": 0.5,
+    "APArmorShardsMod": 0,
+    "APMaxArmorThickness": 1,
+    "APCriticalChanceMultiplier": 0.5,
     "AOECapable": false,
     "IndirectFireCapable": false,
     "RefireModifier": 0,
@@ -97,7 +102,7 @@
             "UIName": "On",
             "isBaseMode": true,
             "IsAMS": true,
-            "ShotsWhenFired": 10,
+            "ShotsWhenFired": 15,
             "AMSHitChance": 0.3,
             "AMSShootsEveryAttack": false
         },
@@ -106,13 +111,12 @@
             "UIName": "Overload",
             "isBaseMode": false,
             "IsAMS": true,
-            "ShotsWhenFired": 15,
-            "AMSHitChance": 0.3,
+            "ShotsWhenFired": 20,
+            "AMSHitChance": 0.4,
             "FlatJammingChance": 0.4,
             "GunneryJammingMult": 0.06,
             "GunneryJammingBase": 5,
-            "HeatGenerated": 12,
-            "MaxRange": 90.0,
+            "HeatGenerated": 10,
             "AMSShootsEveryAttack": true
         },
         {
@@ -126,12 +130,11 @@
             "Id": "Laser",
             "UIName": "Laser",
             "isBaseMode": false,
-            "ShotsWhenFired": 0,
-            "DamagePerShot": 15.0,
-            "HeatGenerated": 10,
-            "FlatJammingChance": 0.1,
-            "GunneryJammingMult": 0.015,
-            "GunneryJammingBase": 5
+            "HeatGenerated": -15,
+            "EvasivePipsIgnored": 1,
+            "AccuracyModifier": -1,
+            "ShotsWhenFired": 3,
+            "DamagePerShot": 5.0
         }
     ],
     "statusEffects": [],

@@ -1,56 +1,60 @@
 {
     "Custom": {
         "Category": [
-            { "CategoryID": "AMS" },
-			{ "CategoryID": "w/s/a/ams" }
+            {
+                "CategoryID": "AMS"
+            },
+            {
+                "CategoryID": "w/s/a/ams"
+            }
         ],
         "BonusDescriptions": {
             "Bonuses": [
-                "AMSMK2",
+                "AMS",
+                "AMSMULTI",
                 "AMSAcc: 30%",
                 "AMSShots: 20",
-                "AMSHeat: 1",
+                "AMSJam: 0%",
+                "OLAdvAMS",
+                "OLAMSMULTI",
                 "OLAMSShots: 40",
-                "OLAMSHeat: 4",
+                "OLAMSHeat: +12",
                 "OLAMSJam: 50%",
-                "OLAMSRange: 90",
-                "OLAMSANY",
-                "OLAMSALL",
-                "AMSDirectMG: 15"
+                "AMSDirectMG: 10"
             ]
         },
         "InventorySorter": {
             "SortKey": "00025"
         }
     },
-	"Auras": [
-    {
-      "Id": "AMS",
-      "Name": "AMS",
-      "ReticleColor": "#800000",
-      "Range": 10,
-      "RemoveOnSensorLock": false,
-      "State": "Persistent",
-      "ApplySelf": false,
-      "HideOnNotSelected": true,
-      "AllyStealthAffection": "None",
-      "EnemyStealthAffection": "None",
-      "IsPositiveToAlly": true
-    }
-  ],
+    "Auras": [
+        {
+            "Id": "AMS",
+            "Name": "AMS",
+            "ReticleColor": "#800000",
+            "Range": 10,
+            "RemoveOnSensorLock": false,
+            "State": "Persistent",
+            "ApplySelf": false,
+            "HideOnNotSelected": true,
+            "AllyStealthAffection": "None",
+            "EnemyStealthAffection": "None",
+            "IsPositiveToAlly": true
+        }
+    ],
     "Category": "AntiPersonnel",
     "Type": "MachineGun",
     "WeaponSubType": "MachineGun",
     "MinRange": 0,
-    "MaxRange": 120,
+    "MaxRange": 180,
     "RangeSplit": [
+        60,
         90,
-        90,
-        90
+        120
     ],
     "AmmoCategory": "AntiMissile",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 0,
+    "HeatGenerated": 6,
     "Damage": 0,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
@@ -59,9 +63,9 @@
     "HeatDamage": 0,
     "AccuracyModifier": 0,
     "CriticalChanceMultiplier": 1,
-	"APArmorShardsMod": 0,
-	"APMaxArmorThickness": 1,
-	"APCriticalChanceMultiplier": 0.5,
+    "APArmorShardsMod": 0,
+    "APMaxArmorThickness": 1,
+    "APCriticalChanceMultiplier": 0.5,
     "AOECapable": false,
     "IndirectFireCapable": false,
     "RefireModifier": 0,
@@ -70,7 +74,6 @@
     "AttackRecoil": 0,
     "Instability": 0,
     "NotUseInMelee": true,
-    "AMSShootsEveryAttack": true,
     "WeaponEffectID": "WeaponEffect-Weapon_MachineGun",
     "Description": {
         "Cost": 330000,
@@ -101,8 +104,8 @@
             "UIName": "On",
             "isBaseMode": true,
             "IsAMS": true,
+            "AMSShootsEveryAttack": true,
             "ShotsWhenFired": 20,
-            "HeatGenerated": 1,
             "AMSHitChance": 0.3
         },
         {
@@ -111,13 +114,13 @@
             "isBaseMode": false,
             "IsAMS": true,
             "IsAAMS": true,
+            "AMSShootsEveryAttack": true,
             "ShotsWhenFired": 40,
             "AMSHitChance": 0.3,
             "FlatJammingChance": 0.5,
             "GunneryJammingMult": 0.075,
             "GunneryJammingBase": 5,
-            "HeatGenerated": 4,
-            "MaxRange": 90.0
+            "HeatGenerated": 6
         },
         {
             "Id": "Off",
@@ -130,12 +133,9 @@
             "Id": "MG",
             "UIName": "MG",
             "isBaseMode": false,
-            "DamagePerShot": 1.0,
-            "HeatGenerated": 18,
-            "ShotsWhenFired": 15,
-            "FlatJammingChance": 0.1,
-            "GunneryJammingMult": 0.015,
-            "GunneryJammingBase": 5
+            "DamagePerShot": 2.0,
+            "HeatGenerated": 6,
+            "ShotsWhenFired": 10
         }
     ],
     "statusEffects": [],
