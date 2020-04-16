@@ -2984,7 +2984,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSJam.Short",
     "Localization": {
-      "CULTURE_EN_US": "AMSJAM"
+      "CULTURE_EN_US": "{0} JAM"
     }
   },
   {
@@ -3002,7 +3002,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectMG.Short",
     "Localization": {
-      "CULTURE_EN_US": "DF AMS"
+      "CULTURE_EN_US": "MG"
     }
   },
   {
@@ -3011,7 +3011,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectPLAS.Short",
     "Localization": {
-      "CULTURE_EN_US": "DF LAMS"
+      "CULTURE_EN_US": "L.Laser"
     }
   },
   {
@@ -3020,7 +3020,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectMLAS.Short",
     "Localization": {
-      "CULTURE_EN_US": "DF LAMS"
+      "CULTURE_EN_US": "M.Laser"
     }
   },
   {
@@ -3029,7 +3029,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectSLAS.Short",
     "Localization": {
-      "CULTURE_EN_US": "DF LAMS"
+      "CULTURE_EN_US": "S.Laser"
     }
   },
   {
@@ -3128,7 +3128,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSShots.Short",
     "Localization": {
-      "CULTURE_EN_US": "AMS Shots"
+      "CULTURE_EN_US": "{0} Shots"
     }
   },
   {
@@ -3137,7 +3137,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSHeat.Short",
     "Localization": {
-      "CULTURE_EN_US": "AMS Heat"
+      "CULTURE_EN_US": "{0} Heat"
     }
   },
   {
@@ -3155,7 +3155,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.OLAMSANY.Short",
     "Localization": {
-      "CULTURE_EN_US": "OLAMSANY"
+      "CULTURE_EN_US": "OL: Multi-Shot"
     }
   },
   {
@@ -3173,7 +3173,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.OLAMSAcc.Short",
     "Localization": {
-      "CULTURE_EN_US": "OLAMSAcc"
+      "CULTURE_EN_US": "(0) OLAMSAcc"
     }
   },
   {
@@ -3182,7 +3182,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.OLAMSShots.Short",
     "Localization": {
-      "CULTURE_EN_US": "OLAMS Shots"
+      "CULTURE_EN_US": "(0) OLAMS Shots"
     }
   },
   {
@@ -3245,7 +3245,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectMG.Long",
     "Localization": {
-      "CULTURE_EN_US": "DF AMS"
+      "CULTURE_EN_US": "Machine Gun"
     }
   },
   {
@@ -3254,7 +3254,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectPLAS.Long",
     "Localization": {
-      "CULTURE_EN_US": "DF LAMS"
+      "CULTURE_EN_US": "Large Laser"
     }
   },
   {
@@ -3263,7 +3263,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectMLAS.Long",
     "Localization": {
-      "CULTURE_EN_US": "DF LAMS"
+      "CULTURE_EN_US": "Medium Laser"
     }
   },
   {
@@ -3272,7 +3272,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectSLAS.Long",
     "Localization": {
-      "CULTURE_EN_US": "DF LAMS"
+      "CULTURE_EN_US": "Small Laser"
     }
   },
   {
@@ -3299,7 +3299,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.LAMSMK2.Long",
     "Localization": {
-      "CULTURE_EN_US": "Lase Anti Missile System MK2"
+      "CULTURE_EN_US": "Laser Anti Missile System MK2"
     }
   },
   {
@@ -3398,7 +3398,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.OLAMSANY.Long",
     "Localization": {
-      "CULTURE_EN_US": "OLAMS Any Intercept"
+      "CULTURE_EN_US": "Overload: Multiple Activations"
     }
   },
   {
@@ -3488,34 +3488,34 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectMG.Full",
     "Localization": {
-      "CULTURE_EN_US": "AMS can fire {0} shots directly like a MG within range"
+      "CULTURE_EN_US": "AMS can fire {0} shots like a MG within range"
     }
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AMS.json",
-    "Original": "LAMS can fire directly like a Large Laser within range",
+    "Original": "LAMS can fire like a Large Laser within range",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectPLAS.Full",
     "Localization": {
-      "CULTURE_EN_US": "LAMS can fire directly like a Large Laser within range"
+      "CULTURE_EN_US": "LAMS can fire like a Large Laser within range"
     }
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AMS.json",
-    "Original": "LAMS can fire directly like a Medium Laser within range",
+    "Original": "LAMS can fire like a Medium Laser within range",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectMLAS.Full",
     "Localization": {
-      "CULTURE_EN_US": "LAMS can fire directly like a Medium Laser within range"
+      "CULTURE_EN_US": "LAMS can fire like a Medium Laser within range"
     }
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AMS.json",
-    "Original": "LAMS can fire directly like a Small Laser within range",
+    "Original": "LAMS can fire like a Small Laser within range",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSDirectSLAS.Full",
     "Localization": {
-      "CULTURE_EN_US": "LAMS can fire directly like a Small Laser within range"
+      "CULTURE_EN_US": "LAMS can fire like a Small Laser within range"
     }
   },
   {
@@ -3547,11 +3547,11 @@
   },
   {
     "FileName": "\\RogueTech Core\\bonusDescriptions\\BonusDescriptions_AMS.json",
-    "Original": "Laser Anti-Missile System: requires no ammo; increased heat generation",
+    "Original": "Laser Anti-Missile System: requires no ammo; generates heat",
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.LAMS.Full",
     "Localization": {
-      "CULTURE_EN_US": "Laser Anti-Missile System: requires no ammo; increased heat generation"
+      "CULTURE_EN_US": "Laser Anti-Missile System: requires no ammo; generates heat"
     }
   },
   {
@@ -3578,7 +3578,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AdvAMS.Full",
     "Localization": {
-      "CULTURE_EN_US": "Advanced Anti-Missile System: will intercept Missiles fired at ANY lancemate within range"
+      "CULTURE_EN_US": "Advanced AMS: Protects Teamates & Allies"
     }
   },
   {
@@ -3605,7 +3605,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSAcc.Full",
     "Localization": {
-      "CULTURE_EN_US": "AMS intercept chance: {0}"
+      "CULTURE_EN_US": "AMS intercept chance per shot: {0}"
     }
   },
   {
@@ -3614,7 +3614,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSShots.Full",
     "Localization": {
-      "CULTURE_EN_US": "AMS fires {0} shots"
+      "CULTURE_EN_US": "AMS fires {0} shots per activation"
     }
   },
   {
@@ -3623,7 +3623,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.AMSHeat.Full",
     "Localization": {
-      "CULTURE_EN_US": "AMS generates {0} heat"
+      "CULTURE_EN_US": "AMS generates {0} heat per activation"
     }
   },
   {
@@ -3641,7 +3641,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.OLAMSANY.Full",
     "Localization": {
-      "CULTURE_EN_US": "Overloaded Anti-Missile System: fires multiple times per round"
+      "CULTURE_EN_US": "Overload allows multiple Activations per round"
     }
   },
   {
@@ -3659,7 +3659,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.OLAMSAcc.Full",
     "Localization": {
-      "CULTURE_EN_US": "Overloaded AMS firing mode intercept chance is {0}"
+      "CULTURE_EN_US": "Overloadeded AMS intercept chance is {0} per shot"
     }
   },
   {
@@ -3668,7 +3668,7 @@
     "Commentary": "",
     "Name": "RogueTech_Core.BonusDescriptions_AMS.OLAMSShots.Full",
     "Localization": {
-      "CULTURE_EN_US": "Overloaded AMS firing mode fires {0} shots"
+      "CULTURE_EN_US": "Overloaded AMS firing mode fires up to {0} shots per activation"
     }
   },
   {
