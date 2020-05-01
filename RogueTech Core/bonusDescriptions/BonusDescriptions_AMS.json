@@ -39,13 +39,13 @@
     {
       "Bonus": "AMS",
       "Short": "AMS",
-      "Long": "AMS",
+      "Long": "Anti-Missile System",
       "Full": "Anti-Missile System, fires at incoming missiles in range once every 10 meters."
     },
     {
       "Bonus": "LAMS",
       "Short": "LAMS",
-      "Long": "LAMS",
+      "Long": "Laser Anti-Missile System",
       "Full": "Laser Anti-Missile System, fires at incoming missiles in range once every 10 meters."
     },
     {
