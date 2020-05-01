@@ -22,16 +22,15 @@
             "Bonuses": [
                 "ArmorTPCost: 20%",
                 "ArmorCBCost: 30%",
-                "LAMSMK2",
-                "AMSAcc: 35%",
+                "LAMS",
+                "AMSMULTI",
+                "AMSAcc: 25",
                 "AMSShots: 15",
-                "AMSHeat: 6",
-                "OLAMSAcc: 40%",
+                "AMSJam: 0%",
+                "OLAMSJam: 30%",
                 "OLAMSShots: 20",
-                "OLAMSHeat: 24",
-                "OLAMSJam: 40%",
-                "OLAMSRange: 90",
-                "OLAMSALL"
+                "OLAMSHeat: 6",
+                "OLAMSJam: 30%"
             ]
         },
         "InventorySorter": {
@@ -50,22 +49,22 @@
       "HideOnNotSelected": true,
       "AllyStealthAffection": "None",
       "EnemyStealthAffection": "None",
-      "IsPositiveToAlly": true
+      "IsPositiveToAlly": false
     }
   ],
     "Category": "AntiPersonnel",
     "Type": "Laser",
     "WeaponSubType": "SmallLaser",
     "MinRange": 0,
-    "MaxRange": 160,
+    "MaxRange": 30,
     "RangeSplit": [
-        90,
-        90,
-        90
+        30,
+        30,
+        30
     ],
     "AmmoCategory": "NotSet",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 8,
+    "HeatGenerated": 5,
     "Damage": 0,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
@@ -97,7 +96,7 @@
         "UIName": "Integrated Laser AMS",
         "Id": "Weapon_Laser_AMS_Integrated",
         "Name": "Int. LAMS",
-        "Details": "This Armor carries an Integrated Laser Anti Missile, pocketing the mech with many smaller Laser system to grant a improved interception  \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
+        "Details": "This Armor carries an Integrated Laser Anti Missile, pocketing the mech with many smaller Laser system to grant very efficient heat efficient interception, albeit at very close range. Some mechwarriors find the sound of fragments of neutralized missiles clattering off their mech disconcerting.  \n\n <b><color=#00ffff>Left Click on Chance to hit during battle to switch firing mode</color> </b>",
         "Icon": "AMS"
     },
     "BonusValueA": "",
